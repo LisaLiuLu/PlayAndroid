@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#00BCD4"
+    android:id="@+id/tool_bar"
+    app:navigationIcon="@mipmap/ic_launcher"
+    app:layout_scrollFlags="scroll|enterAlways"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/tb_iv_i0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="玩Android"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"/>
+
+</android.support.v7.widget.Toolbar>
